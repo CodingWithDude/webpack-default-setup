@@ -1,7 +1,7 @@
 {
-  "name": "dude-lets-do-it",
+  "name": "webpack-default-setup",
   "version": "1.0.0",
-  "description": "A todo list for The Odin Project",
+  "description": "A default setup for webpack",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodingWithDude/dude-lets-do-it.git"
+    "url": "git+https://github.com/CodingWithDude/webpack-default-setup"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CodingWithDude/dude-lets-do-it/issues"
+    "url": "https://github.com/CodingWithDude/webpack-default-setup/issues"
   },
-  "homepage": "https://github.com/CodingWithDude/dude-lets-do-it#readme",
+  "homepage": "https://github.com/CodingWithDude/webpack-default-setup#readme",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",

@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Dude, Let's Do It",
+      title: "webpack default setup",
       filename: "index.html",
       template: "src/template.html",
     }),
