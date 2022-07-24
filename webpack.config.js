@@ -12,6 +12,8 @@ module.exports = {
   },
   devtool: "source-map",
   devServer: {
+    watchFiles: ["src/*.html"],
+    hot: true,
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
@@ -39,7 +41,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "webpack default setup",
+      title: "Dude, Let's Do It",
       filename: "index.html",
       template: "src/template.html",
     }),
